@@ -1,0 +1,480 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  width: 100%;
+  height: 0.88rem;
+  background-color: #50bbdb;
+  border-bottom: 0.03rem solid #f1f1f1;
+}
+.header img {
+  height: 0.56rem;
+  float: left;
+  margin-top: 0.16rem;
+  margin-left: 0.28rem;
+}
+.header .title {
+  float: left;
+  width: 2.5rem;
+  height: 0.53rem;
+  margin-left: 1.65rem;
+  margin-top: 0.19rem;
+}
+.header .title .top {
+  font-size: 0.28rem;
+  color: white;
+}
+.header .title .foot {
+  margin-left: 0.31rem;
+  font-size: 0.18rem;
+  color: white;
+}
+.header ul li {
+  width: 0.12rem;
+  height: 0.12rem;
+  border-radius: 0.12rem;
+  background-color: white;
+  list-style: none;
+  float: right;
+  margin-right: 0.08rem;
+  margin-top: 0.39rem;
+}
+.container .first {
+  overflow: hidden;
+  border-bottom: 0.17rem solid #f1f1f1;
+}
+.container .first .picbox {
+  width: 1.81rem;
+  height: 1.68rem;
+  position: relative;
+  float: left;
+}
+.container .first .picbox .xue {
+  width: 1.81rem;
+  height: 1.68rem;
+}
+.container .first .picbox .shadow {
+  position: absolute;
+  width: 1.81rem;
+  height: 0.31rem;
+  background-color: black;
+  opacity: 0.5;
+  bottom: 0;
+  left: 0;
+}
+.container .first .picbox .shadow span {
+  bottom: 0.02rem;
+  left: 0.2rem;
+  position: absolute;
+  color: white;
+  font-size: 0.2rem;
+}
+.container .first .content {
+  margin-left: 0.13rem;
+}
+.container .first .content .top {
+  margin-left: 1.8rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.container .first .content .center {
+  margin-left: 1.8rem;
+  margin-top: 0.17rem;
+  font-size: 0.24rem;
+}
+.container .first .content .bottom {
+  margin-left: 1.8rem;
+  font-size: 0.2rem;
+  margin-top: 0.17rem;
+  color: #a7a7a7;
+}
+.container .first .ren {
+  margin-left: 0.13rem;
+  margin-top: 0.17rem;
+  height: 0.36rem;
+  float: left;
+}
+.container .first .tansuo {
+  font-size: 0.18rem;
+  display: inline-block;
+  float: left;
+  margin-top: 0.25rem;
+}
+.container .first .xiao {
+  margin-left: 1.51rem;
+  float: left;
+  margin-top: 0.25rem;
+  font-size: 0.18rem;
+  display: inline-block;
+  color: #ea561d;
+  font-weight: bold;
+}
+.container .first .da {
+  float: left;
+  margin-top: 0.15rem;
+  font-size: 0.28rem;
+  color: #ea561d;
+  font-weight: bold;
+  display: inline-block;
+}
+.container .first .yexiao {
+  float: left;
+  margin-top: 0.25rem;
+  color: #ea561d;
+  font-weight: bold;
+  font-size: 0.18rem;
+  display: inline-block;
+}
+.container .second {
+  overflow: hidden;
+  border-bottom: 0.17rem solid #f1f1f1;
+}
+.container .second .picbox {
+  width: 1.81rem;
+  height: 1.68rem;
+  position: relative;
+  float: left;
+}
+.container .second .picbox .xue {
+  width: 1.81rem;
+  height: 1.68rem;
+}
+.container .second .picbox .shadow {
+  position: absolute;
+  width: 1.81rem;
+  height: 0.31rem;
+  background-color: black;
+  opacity: 0.5;
+  bottom: 0;
+  left: 0;
+}
+.container .second .picbox .shadow span {
+  bottom: 0.02rem;
+  left: 0.2rem;
+  position: absolute;
+  color: white;
+  font-size: 0.2rem;
+}
+.container .second .content {
+  margin-left: 0.13rem;
+}
+.container .second .content .top {
+  margin-left: 1.8rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.container .second .content .center {
+  margin-left: 1.8rem;
+  margin-top: 0.17rem;
+  font-size: 0.24rem;
+}
+.container .second .content .bottom {
+  margin-left: 1.8rem;
+  font-size: 0.2rem;
+  margin-top: 0.17rem;
+  color: #a7a7a7;
+}
+.container .second .ren {
+  margin-left: 0.13rem;
+  margin-top: 0.17rem;
+  height: 0.36rem;
+  float: left;
+}
+.container .second .tansuo {
+  font-size: 0.18rem;
+  display: inline-block;
+  float: left;
+  margin-top: 0.25rem;
+}
+.container .second .xiao {
+  margin-left: 1.51rem;
+  float: left;
+  margin-top: 0.25rem;
+  font-size: 0.18rem;
+  display: inline-block;
+  color: #ea561d;
+  font-weight: bold;
+}
+.container .second .da {
+  float: left;
+  margin-top: 0.15rem;
+  font-size: 0.28rem;
+  color: #ea561d;
+  font-weight: bold;
+  display: inline-block;
+}
+.container .second .yexiao {
+  float: left;
+  margin-top: 0.25rem;
+  color: #ea561d;
+  font-weight: bold;
+  font-size: 0.18rem;
+  display: inline-block;
+}
+.container .third {
+  overflow: hidden;
+  border-bottom: 0.17rem solid #f1f1f1;
+}
+.container .third .picbox {
+  width: 1.81rem;
+  height: 1.68rem;
+  position: relative;
+  float: left;
+}
+.container .third .picbox .xue {
+  width: 1.81rem;
+  height: 1.68rem;
+}
+.container .third .picbox .shadow {
+  position: absolute;
+  width: 1.81rem;
+  height: 0.31rem;
+  background-color: black;
+  opacity: 0.5;
+  bottom: 0;
+  left: 0;
+}
+.container .third .picbox .shadow span {
+  bottom: 0.02rem;
+  left: 0.2rem;
+  position: absolute;
+  color: white;
+  font-size: 0.2rem;
+}
+.container .third .content {
+  margin-left: 0.13rem;
+}
+.container .third .content .top {
+  margin-left: 1.8rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.container .third .content .center {
+  margin-left: 1.8rem;
+  margin-top: 0.17rem;
+  font-size: 0.24rem;
+}
+.container .third .content .bottom {
+  margin-left: 1.8rem;
+  font-size: 0.2rem;
+  margin-top: 0.17rem;
+  color: #a7a7a7;
+}
+.container .third .ren {
+  margin-left: 0.13rem;
+  margin-top: 0.17rem;
+  height: 0.36rem;
+  float: left;
+}
+.container .third .tansuo {
+  font-size: 0.18rem;
+  display: inline-block;
+  float: left;
+  margin-top: 0.25rem;
+}
+.container .third .xiao {
+  margin-left: 1.51rem;
+  float: left;
+  margin-top: 0.25rem;
+  font-size: 0.18rem;
+  display: inline-block;
+  color: #ea561d;
+  font-weight: bold;
+}
+.container .third .da {
+  float: left;
+  margin-top: 0.15rem;
+  font-size: 0.28rem;
+  color: #ea561d;
+  font-weight: bold;
+  display: inline-block;
+}
+.container .third .yexiao {
+  float: left;
+  margin-top: 0.25rem;
+  color: #ea561d;
+  font-weight: bold;
+  font-size: 0.18rem;
+  display: inline-block;
+}
+.container .fourth {
+  overflow: hidden;
+  border-bottom: 0.17rem solid #f1f1f1;
+}
+.container .fourth .picbox {
+  width: 1.81rem;
+  height: 1.68rem;
+  position: relative;
+  float: left;
+}
+.container .fourth .picbox .xue {
+  width: 1.81rem;
+  height: 1.68rem;
+}
+.container .fourth .picbox .shadow {
+  position: absolute;
+  width: 1.81rem;
+  height: 0.31rem;
+  background-color: black;
+  opacity: 0.5;
+  bottom: 0;
+  left: 0;
+}
+.container .fourth .picbox .shadow span {
+  bottom: 0.02rem;
+  left: 0.2rem;
+  position: absolute;
+  color: white;
+  font-size: 0.2rem;
+}
+.container .fourth .content {
+  margin-left: 0.13rem;
+}
+.container .fourth .content .top {
+  margin-left: 1.8rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.container .fourth .content .center {
+  margin-left: 1.8rem;
+  margin-top: 0.17rem;
+  font-size: 0.24rem;
+}
+.container .fourth .content .bottom {
+  margin-left: 1.8rem;
+  font-size: 0.2rem;
+  margin-top: 0.17rem;
+  color: #a7a7a7;
+}
+.container .fourth .ren {
+  margin-left: 0.13rem;
+  margin-top: 0.17rem;
+  height: 0.36rem;
+  float: left;
+}
+.container .fourth .tansuo {
+  font-size: 0.18rem;
+  display: inline-block;
+  float: left;
+  margin-top: 0.25rem;
+}
+.container .fourth .xiao {
+  margin-left: 1.51rem;
+  float: left;
+  margin-top: 0.25rem;
+  font-size: 0.18rem;
+  display: inline-block;
+  color: #ea561d;
+  font-weight: bold;
+}
+.container .fourth .da {
+  float: left;
+  margin-top: 0.15rem;
+  font-size: 0.28rem;
+  color: #ea561d;
+  font-weight: bold;
+  display: inline-block;
+}
+.container .fourth .yexiao {
+  float: left;
+  margin-top: 0.25rem;
+  color: #ea561d;
+  font-weight: bold;
+  font-size: 0.18rem;
+  display: inline-block;
+}
+.footer ul li {
+  list-style: none;
+  float: left;
+  width: 1.10rem;
+  margin-left: 0.42rem;
+}
+.footer ul li img {
+  display: block;
+  margin-left: 0.16rem;
+  width: 0.44rem;
+}
+.footer ul li p {
+  font-size: 0.2rem;
+  margin-top: 0.12rem;
+}
+.footer ul li .user {
+  margin-left: 0.20rem;
+}
+.footer ul li:hover p {
+  color: #50bbdb;
+}
+body html {
+  height: 100%;
+}
+.modal {
+  display: none;
+  width: 100%;
+  height: 4.0rem;
+}
+.modal .layout {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.modal .absolute {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.modal .absolute .top {
+  height: 0.71rem;
+  width: 100%;
+  background-color: #50bbdb;
+  z-index: 99;
+}
+.modal .absolute .top p {
+  font-size: 0.26rem;
+}
+.modal .absolute .top .queding {
+  float: right;
+  line-height: 0.71rem;
+}
+.modal .absolute .top .quxiao {
+  float: left;
+  line-height: 0.71rem;
+}
+.modal .absolute .top .qingkong {
+  text-align: center;
+  line-height: 0.71rem;
+}
+.modal .absolute .content .chuxing {
+  width: 40%;
+  height: 3.4rem;
+  background-color: #ebebeb;
+  float: left;
+}
+.modal .absolute .content .chuxing li {
+  height: 0.68rem;
+  line-height: 0.68rem;
+  list-style: none;
+  font-size: 0.26rem;
+  text-align: center;
+}
+.modal .absolute .content .chengshi {
+  float: right;
+  width: 60%;
+  background-color: white;
+}
+.modal .absolute .content .chengshi li {
+  margin-left: 0.8rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  list-style: none;
+  font-size: 0.26rem;
+}
+.modal .absolute .content .chengshi input {
+  margin-left: 2rem;
+  margin-bottom: 0.8rem;
+  color: #50bbdb;
+}

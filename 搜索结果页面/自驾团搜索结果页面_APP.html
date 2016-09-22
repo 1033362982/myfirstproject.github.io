@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="自驾团搜索结果页面_APP.css">
+</head>
+<body>
+	<div class="header">
+		<img src="imgs/left.jpg" alt="">
+		<div class="title"><p class="top">南京 产品推荐</p>
+			<p class="foot">123个搜索结果</p></div>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<div class="container">
+		<div class="first">
+			<div class="picbox">
+				<img class="xue"src="imgs/first.jpg" alt="">
+				<div class="shadow">
+					<span>2016-02-08出发</span>
+				</div>
+			</div>
+			
+			<div class="content">
+				<p class="top"> <阿尔山童话世界冰雪温泉之旅>6天行程 </p>
+				<p class="center"> 线路：南京—乌兰浩特—阿尔山—白狼村 </p>
+				<p class="bottom"> 冰雪阿尔山，欢乐过大年 </p>
+			</div>
+			<img class="ren" src="imgs/ren.jpg" alt="">
+			<p class="tansuo">探索者旅行俱乐部</p>
+			<p class="xiao">￥</p><p class="da">3600</p><p class="yexiao">起</p>
+		</div>
+		<div class="second">
+			<div class="picbox">
+				<img class="xue"src="imgs/fo.jpg" alt="">
+				<div class="shadow">
+					<span>2016-02-01出发</span>
+				</div>
+			</div>
+			
+			<div class="content">
+				<p class="top"> <海天佛国 普陀山祈福之旅>3天行程 </p>
+				<p class="center"> 线路：南京—朱家尖—普陀山—宁波 </p>
+				<p class="bottom"> 海天佛国，南海圣境 </p>
+			</div>
+			<img class="ren" src="imgs/ren.jpg" alt="">
+			<p class="tansuo">探索者旅行俱乐部</p>
+			<p class="xiao">￥</p><p class="da">1280</p><p class="yexiao">起</p>
+		</div>
+		<div class="third">
+			<div class="picbox">
+				<img class="xue"src="imgs/guilin.jpg" alt="">
+				<div class="shadow">
+					<span>2016-02-08出发</span>
+				</div>
+			</div>
+			
+			<div class="content">
+				<p class="top"> <玩转广西自驾12日游>12天行程 </p>
+				<p class="center"> 线路：南京—桂林—凭祥—北海—阳朔 </p>
+				<p class="bottom"> 尽情领略广西风光，深入体验中越边关风采。 </p>
+			</div>
+			<img class="ren" src="imgs/ren.jpg" alt="">
+			<p class="tansuo">探索者旅行俱乐部</p>
+			<p class="xiao">￥</p><p class="da">4680</p><p class="yexiao">起</p>
+		</div>
+		<div class="fourth">
+			<div class="picbox">
+				<img class="xue"src="imgs/dongnan.jpg" alt="">
+				<div class="shadow">
+					<span>2016-02-08出发</span>
+				</div>
+			</div>
+			
+			<div class="content">
+				<p class="top"> <黔东南深度名俗体验之旅>12天行程 </p>
+				<p class="center"> 线路：南京—西江—黄果树—荔波—桂林 </p>
+				<p class="bottom"> 冰雪阿尔山，欢乐过大年 </p>
+			</div>
+			<img class="ren" src="imgs/ren.jpg" alt="">
+			<p class="tansuo">探索者旅行俱乐部</p>
+			<p class="xiao">￥</p><p class="da">4580</p><p class="yexiao">起</p>
+		</div>
+	</div>
+	<div class="footer">
+		<ul>
+			<li class="country">
+				<img src="imgs/fang.jpg" alt="">
+				<p>出发城市</p>
+			</li>
+			<li>
+				<img src="imgs/jisuanqi.jpg" alt="">
+				<p>行程天数</p>
+			</li>
+			<li>
+				<img src="imgs/biao.jpg" alt="">
+				<p>出行时间</p>
+			</li>
+			<li>
+				<img class="user" src="imgs/tiao.jpg" alt="">
+				<p>推荐顺序</p>
+			</li>
+		</ul>
+	</div>
+	<div class="modal">
+		<div class="layout">	
+		</div>
+		<div class="absolute">
+			<div class="top">
+				<div class="quxiao"><p >取消</p></div>				
+				<div class="queding"><p >确定</p></div>
+				<div class="qingkong"><p >清空记录</p></div>
+			</div>
+			<div class="content"> 
+				<ul class="chuxing">
+					<li>出发城市</li>
+					<li>行程天数</li>
+					<li>出行时间</li>
+				</ul>
+				<ul class="chengshi">
+					<li>不限 <input type="checkbox"></li>
+					<li>北京 <input type="checkbox"></li>
+					<li>南京 <input type="checkbox"></li>
+					<li>上海 <input type="checkbox"></li>
+					<li>杭州 <input type="checkbox"></li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+	<script src="script/fontsizeset.js"></script>
+	<script src="script/jquery.min.js"></script>
+	<script>
+		$(".country").click(function(){
+			$(".modal").slideToggle();
+		})
+		$(".queding").click(function(){
+			$(".modal").slideToggle();
+		})
+
+
+	</script>
+</body>
+</html>

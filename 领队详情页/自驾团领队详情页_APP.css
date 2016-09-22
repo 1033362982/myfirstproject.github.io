@@ -1,0 +1,417 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  height: 0.87rem;
+  width: 100%;
+  background-color: #50bbdb;
+}
+.header img {
+  margin-top: 0.22rem;
+  margin-left: 0.45rem;
+  height: 0.44rem;
+  float: left;
+}
+.header h5 {
+  font-size: 0.28rem;
+  margin-left: 2.37rem;
+  line-height: 0.87rem;
+  color: white;
+}
+.banner {
+  background-color: #ebebeb;
+  height: 0.7rem;
+  width: 100%;
+}
+.banner .left {
+  width: 2.40rem;
+  color: #d5d5d5;
+  float: left;
+  margin-top: 0.34rem;
+}
+.banner .right {
+  width: 2.48rem;
+  color: #d5d5d5;
+  float: right;
+  margin-top: 0.34rem;
+}
+.banner h5 {
+  margin-left: 0.15rem;
+  float: left;
+  font-size: 0.28rem;
+  line-height: 0.7rem;
+}
+.container-top {
+  overflow: hidden;
+}
+.container-top img {
+  float: left;
+  height: 1.48rem;
+  margin-left: 0.39rem;
+  margin-top: 0.2rem;
+}
+.container-top .title {
+  border-bottom: 1px dashed #e2e2e2;
+  float: right;
+  height: 0.59rem;
+  width: 3rem;
+  font-size: 0.28rem;
+  line-height: 0.59rem;
+  margin-top: 0.61rem;
+  margin-right: 1.05rem;
+  font-weight: bold;
+}
+.content {
+  border: 1px dashed #e2e2e2;
+  margin-top: 0.17rem;
+  margin-left: 0.41rem;
+  margin-right: 0.41rem;
+}
+.content p {
+  padding: 0.26rem 0.12rem;
+  font-size: 0.21rem;
+  line-height: 0.40rem;
+  dolor: #999999;
+  font-weight: bold;
+}
+.banner1 {
+  margin-top: 0.38rem;
+  background-color: #ebebeb;
+  height: 0.7rem;
+  width: 100%;
+}
+.banner1 .left {
+  width: 2.40rem;
+  color: #d5d5d5;
+  float: left;
+  margin-top: 0.34rem;
+}
+.banner1 .right {
+  width: 2.48rem;
+  color: #d5d5d5;
+  float: right;
+  margin-top: 0.34rem;
+}
+.banner1 h5 {
+  margin-left: 0.15rem;
+  float: left;
+  font-size: 0.28rem;
+  line-height: 0.7rem;
+}
+.container-center {
+  padding: 0px;
+  height: 2.99rem;
+  margin-left: 0.07rem;
+  margin-right: 0.07rem;
+  margin-bottom: 0.07rem;
+  border: 1px solid #50bbdb;
+  overflow: hidden;
+  position: relative;
+}
+.container-center img {
+  width: 100%;
+  height: 2.99rem;
+}
+.container-center .head {
+  height: 0.46rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center .head p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.24rem;
+  line-height: 0.46rem;
+}
+.container-center .foot {
+  height: 0.28rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center .foot p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.2rem;
+  line-height: 0.28rem;
+}
+.container-center .money {
+  width: 0.96rem;
+  height: 0.96rem;
+  border: 4px solid white;
+  border-radius: 0.92rem;
+  background-color: #f0884d;
+  position: absolute;
+  bottom: -0.5rem;
+  right: 0;
+}
+.container-center .money p {
+  margin-top: 0.25rem;
+  text-align: center;
+  font-size: 0.12rem;
+}
+.container-center1 {
+  padding: 0px;
+  height: 2.99rem;
+  margin-left: 0.07rem;
+  margin-right: 0.07rem;
+  margin-bottom: 0.07rem;
+  border: 1px solid #50bbdb;
+  overflow: hidden;
+  position: relative;
+}
+.container-center1 img {
+  width: 100%;
+  height: 2.99rem;
+}
+.container-center1 .head {
+  height: 0.46rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center1 .head p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.24rem;
+  line-height: 0.46rem;
+}
+.container-center1 .foot {
+  height: 0.28rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center1 .foot p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.2rem;
+  line-height: 0.28rem;
+}
+.container-center1 .money {
+  width: 0.96rem;
+  height: 0.96rem;
+  border: 4px solid white;
+  border-radius: 0.92rem;
+  background-color: #f0884d;
+  position: absolute;
+  bottom: -0.5rem;
+  right: 0;
+}
+.container-center1 .money p {
+  margin-top: 0.25rem;
+  text-align: center;
+  font-size: 0.12rem;
+}
+.container-center2 {
+  padding: 0px;
+  height: 2.99rem;
+  margin-left: 0.07rem;
+  margin-right: 0.07rem;
+  margin-bottom: 0.07rem;
+  border: 1px solid #50bbdb;
+  overflow: hidden;
+  position: relative;
+}
+.container-center2 img {
+  width: 100%;
+  height: 2.99rem;
+}
+.container-center2 .head {
+  height: 0.46rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center2 .head p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.24rem;
+  line-height: 0.46rem;
+}
+.container-center2 .foot {
+  height: 0.28rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center2 .foot p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.2rem;
+  line-height: 0.28rem;
+}
+.container-center2 .money {
+  width: 0.96rem;
+  height: 0.96rem;
+  border: 4px solid white;
+  border-radius: 0.92rem;
+  background-color: #f0884d;
+  position: absolute;
+  bottom: -0.5rem;
+  right: 0;
+}
+.container-center2 .money p {
+  margin-top: 0.25rem;
+  text-align: center;
+  font-size: 0.12rem;
+}
+.container-center3 {
+  padding: 0px;
+  height: 2.99rem;
+  margin-left: 0.07rem;
+  margin-right: 0.07rem;
+  margin-bottom: 0.07rem;
+  border: 1px solid #50bbdb;
+  overflow: hidden;
+  position: relative;
+}
+.container-center3 img {
+  width: 100%;
+  height: 2.99rem;
+}
+.container-center3 .head {
+  height: 0.46rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center3 .head p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.24rem;
+  line-height: 0.46rem;
+}
+.container-center3 .foot {
+  height: 0.28rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center3 .foot p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.2rem;
+  line-height: 0.28rem;
+}
+.container-center3 .money {
+  width: 0.96rem;
+  height: 0.96rem;
+  border: 4px solid white;
+  border-radius: 0.92rem;
+  background-color: #f0884d;
+  position: absolute;
+  bottom: -0.5rem;
+  right: 0;
+}
+.container-center3 .money p {
+  margin-top: 0.25rem;
+  text-align: center;
+  font-size: 0.12rem;
+}
+.container-center4 {
+  padding: 0px;
+  height: 2.99rem;
+  margin-left: 0.07rem;
+  margin-right: 0.07rem;
+  margin-bottom: 0.07rem;
+  border: 1px solid #50bbdb;
+  overflow: hidden;
+  position: relative;
+}
+.container-center4 img {
+  width: 100%;
+  height: 2.99rem;
+}
+.container-center4 .head {
+  height: 0.46rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center4 .head p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.24rem;
+  line-height: 0.46rem;
+}
+.container-center4 .foot {
+  height: 0.28rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.container-center4 .foot p {
+  margin-left: 0.23rem;
+  color: white;
+  font-size: 0.2rem;
+  line-height: 0.28rem;
+}
+.container-center4 .money {
+  width: 0.96rem;
+  height: 0.96rem;
+  border: 4px solid white;
+  border-radius: 0.92rem;
+  background-color: #f0884d;
+  position: absolute;
+  bottom: -0.5rem;
+  right: 0;
+}
+.container-center4 .money p {
+  margin-top: 0.25rem;
+  text-align: center;
+  font-size: 0.12rem;
+}
+.more {
+  width: 100%;
+  height: 0.68rem;
+  background-color: #f1f1f1;
+}
+.more span {
+  line-height: 0.68rem;
+}
+.more span a {
+  color: #666666;
+  text-decoration: none;
+  margin-left: 2.61rem;
+  font-size: 0.20rem;
+  float: left;
+}
+.more img {
+  margin-top: 0.2rem;
+  width: 0.26rem;
+  float: right;
+  margin-right: 2.61rem;
+}
